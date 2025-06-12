@@ -1,0 +1,38 @@
+{
+  "name": "easyda-intellisense",
+  "displayName": "EasyDA IntelliSense",
+  "description": "IntelliSense support for EasyDA Professional API",
+  "version": "0.0.1",
+  "publisher": "mkeyno",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "javascript",
+        "extensions": [".js", ".jsx"]
+      },
+      {
+        "id": "typescript",
+        "extensions": [".ts", ".tsx"]
+      }
+    ]
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkeyno/easyda-pro-API-intellisense.git"
+  },
+  "author": {
+    "name": "Mehrdad Keyno",
+    "url": "https://www.keyno-gc.co.nz"
+  }
